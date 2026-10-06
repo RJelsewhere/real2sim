@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Approval Record",
+  "type": "object",
+  "required": ["approval_id", "patch_id", "approved"],
+  "properties": {
+    "approval_id": {"type": "string"},
+    "patch_id": {"type": "string"},
+    "approved": {"type": "boolean"},
+    "reviewer": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

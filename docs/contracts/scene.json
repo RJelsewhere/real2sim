@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Real2Sim Scene",
+  "type": "object",
+  "required": ["scene_id", "source"],
+  "properties": {
+    "scene_id": {"type": "string"},
+    "source": {"type": "string"},
+    "objects": {"type": "array", "items": {"type": "object"}},
+    "metadata": {"type": "object"}
+  }
+}

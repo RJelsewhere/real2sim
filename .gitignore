@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Node / frontend
+node_modules/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data and generated artifacts
+data/raw/
+data/generated/
+artifacts/
+*.bag
+*.db

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate Patch",
+  "type": "object",
+  "required": ["patch_id", "source"],
+  "properties": {
+    "patch_id": {"type": "string"},
+    "source": {"type": "string"},
+    "description": {"type": "string"},
+    "simulation_run_id": {"type": "string"},
+    "approved": {"type": "boolean"}
+  }
+}

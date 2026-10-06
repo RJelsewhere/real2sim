@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Simulation Run Result",
+  "type": "object",
+  "required": ["run_id", "status"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "status": {"type": "string"},
+    "metrics": {"type": "object"},
+    "artifacts": {"type": "array", "items": {"type": "string"}}
+  }
+}

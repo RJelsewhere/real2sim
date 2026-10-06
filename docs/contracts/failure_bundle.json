@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Failure Bundle",
+  "type": "object",
+  "required": ["failure_id"],
+  "properties": {
+    "failure_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "description": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}}
+  }
+}
